@@ -83,12 +83,7 @@ src
 ### Using TestNG
 
 * Right click on `testng.xml` → Run
-
-### Using Maven
-
-```bash
-mvn clean test
-```
+* 
 
 ---
 
