@@ -1,0 +1,19 @@
+{
+  "name": "Mostafa",
+  "email": "mostafa@gmail.com",
+  "password": "password1234",
+  "title": "Mr",
+  "birth_date": 15,
+  "birth_month": "December",
+  "birth_year": 1990,
+  "firstname": "sasa",
+  "lastname": "alashry",
+  "company": "colaa",
+  "address1": "mdeent nasr",
+  "address2": "masr elgdeda",
+  "country": "India",
+  "zipcode": "1212",
+  "state": "cairo",
+  "city": "Giza",
+  "mobile_number": "01023031181"
+}
