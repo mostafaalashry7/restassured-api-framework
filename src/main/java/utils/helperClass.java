@@ -14,7 +14,7 @@ public class helperClass {
 
         public static String getProperty(String Filename, String Key) throws IOException {
             Properties prop = new Properties();
-            prop.load(new FileInputStream("src\\test\\java\\proprties\\"+Filename+".properties"));
+            prop.load(new FileInputStream("src\\test\\resources\\properties\\" + Filename + ".properties"));
             return prop.getProperty(Key);
         }
 

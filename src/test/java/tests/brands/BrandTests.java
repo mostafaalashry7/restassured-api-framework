@@ -1,4 +1,4 @@
-package tests;
+package tests.brands;
 
 import base.baseTest;
 import io.restassured.response.Response;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import responseClasses.Brands.BrandsList;
 import utils.helperClass;
 
-public class brandsTests extends baseTest {
+public class BrandTests extends baseTest {
 
     @Test
     public void putToAllBrands() {
@@ -15,7 +15,6 @@ public class brandsTests extends baseTest {
         Assert.assertEquals(getResponseCode(res), 405);
         Assert.assertEquals(getResponseMsg(res), msg.invalidRequestMethod);
     }
-
 
     @Test
     public void getAllBrands() {
@@ -26,5 +25,4 @@ public class brandsTests extends baseTest {
         Assert.assertEquals(res.statusCode(), 200);
         Assert.assertEquals(brandsList.getBrands().get(0).getBrand(), "Polo");
     }
-
 }

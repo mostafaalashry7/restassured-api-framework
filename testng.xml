@@ -2,9 +2,12 @@
 <suite name="API Suite">
     <test name="API Tests">
         <classes>
-            <class name="tests.productsTests"/>
-            <class name="tests.accountTests"/>
-            <class name="tests.brandsTests"/>
+            <class name="tests.authentication.LoginTests"/>
+            <class name="tests.users.AccountManagementTests"/>
+            <class name="tests.users.UserDetailsTests"/>
+            <class name="tests.products.ProductListingTests"/>
+            <class name="tests.products.ProductSearchTests"/>
+            <class name="tests.brands.BrandTests"/>
         </classes>
     </test>
 </suite>
